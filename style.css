@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #333;
+    background-color: #decea1;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+    text-align: right;
 }
 
 nav ul {
@@ -35,8 +35,9 @@ section {
     padding: 20px;
     background-color: #fff;
     margin: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    display: inline-flex;
+    /* border: 1px solid #ddd;
+    border-radius: 5px; */
 }
 
 .project {
@@ -53,7 +54,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #decea1;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -67,3 +68,29 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+}
+
+.line {
+    display: inline-flex;
+    margin: 5px;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+  }
