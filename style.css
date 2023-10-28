@@ -86,11 +86,19 @@ a:hover {
 }
 
 .line {
-    display: inline-flex;
-    margin: 5px;
+    display: inline;
     padding: 20px;
 }
 
-img {
+.paper {
+    margin: 10px;
+}
+
+.pic {
     border-radius: 50%;
-  }
+    margin: 20px;
+}
+
+.header {
+    margin: 10px;
+}
